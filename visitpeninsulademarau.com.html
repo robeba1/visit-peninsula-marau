@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Península de Maraú</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: url('banner-marau.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #00695c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #00695c;
+      margin-bottom: 20px;
+    }
+    .formulario {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .formulario label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .formulario input, .formulario textarea, .formulario select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .formulario button {
+      margin-top: 20px;
+      padding: 12px;
+      background: #00695c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Visit Península de Maraú</h1>
+    <p>Onde a natureza encontra a alma</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#empresarios">Empresários</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>✨ Sobre a Península</h2>
+    <p>A Península de Maraú é um dos destinos mais encantadores do Brasil — praias paradisíacas, cultura vibrante, gastronomia autêntica e uma comunidade acolhedora. Este portal promove a região como destino turístico nacional e internacional, valorizando cada negócio local que faz parte dessa experiência.</p>
+  </section>
+
+  <section id="empresarios">
+    <h2>🤝 Empresários Locais</h2>
+    <p>Se você é dono de pousada, restaurante, loja, mercado, agência de turismo ou qualquer outro negócio na Península de Maraú, este projeto é para você. Cadastre-se e faça parte da rede!</p>
+
+    <div class="formulario">
+      <form>
+        <label>Nome do Estabelecimento</label>
+        <input type="text" name="nome" required>
+
+        <label>Tipo de Negócio</label>
+        <select name="tipo">
+          <option>Pousada</option>
+          <option>Restaurante</option>
+          <option>Loja</option>
+          <option>Mercado</option>
+          <option>Agência de Turismo</option>
+          <option>Outro</option>
+        </select>
+
+        <label>Localização</label>
+        <input type="text" name="localizacao">
+
+        <label>Responsável</label>
+        <input type="text" name="responsavel">
+
+        <label>Telefone / WhatsApp</label>
+        <input type="text" name="telefone">
+
+        <label>E-mail</label>
+        <input type="email" name="email">
+
+        <label>Redes Sociais / Site</label>
+        <input type="text" name="redes">
+
+        <label>Descrição do Negócio</label>
+        <textarea name="descricao"></textarea>
+
+        <label>Serviços Oferecidos</label>
+        <input type="text" name="servicos">
+
+        <label>Faixa de Preço</label>
+        <select name="preco">
+          <option>Econômico</option>
+          <option>Médio</option>
+          <option>Alto Padrão</option>
+        </select>
+
+        <label>Público-Alvo</label>
+        <input type="text" name="publico">
+
+        <button type="submit">Enviar Cadastro</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="eventos">
+    <h2>📅 Agenda de Eventos</h2>
+    <p>Em breve: calendário com festas locais, feiras culturais e celebrações da Península de Maraú.</p>
+  </section>
+
+  <section id="contato">
+    <h2>📩 Contato</h2>
+    <p>Quer saber mais sobre o projeto? Entre em contato pelo e-mail: <strong>contato@visitpeninsulademarau.com</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Visit Península de Maraú — Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
